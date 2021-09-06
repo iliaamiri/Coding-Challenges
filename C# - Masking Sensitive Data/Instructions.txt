@@ -1,0 +1,12 @@
+C# Coding Challenge
+
+Please send a C# file containing a function that achieves the following:
+o	A string parameter is passed to the function – attached are various samples of possible input data
+o	The function receives this data as a string, not an array, json or other data formats
+o	The function should parse the string and mask sensitive data.
+o	Sensitive data should be masked (replaced) with an Asterix (*) character.
+o	Sensitive data includes the fields below, but new sensitive fields should be easily added to the function as needed:
+	The credit card number
+	The credit card expiry date
+	The credit card CVV value
+o	The function returns the parsed string in the same format that it was provided, but with the sensitive data now masked.
